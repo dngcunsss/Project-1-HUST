@@ -1,0 +1,24 @@
+[2024-05-06T07:55:38.011+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_playlist_tracks manual__2024-05-06T07:54:16.066736+00:00 [queued]>
+[2024-05-06T07:55:38.022+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_playlist_tracks manual__2024-05-06T07:54:16.066736+00:00 [queued]>
+[2024-05-06T07:55:38.023+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-05-06T07:55:38.039+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_playlist_tracks> on 2024-05-06 07:54:16.066736+00:00
+[2024-05-06T07:55:38.046+0000] {standard_task_runner.py:60} INFO - Started process 2796 to run task
+[2024-05-06T07:55:38.050+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'get_playlist_tracks', 'manual__2024-05-06T07:54:16.066736+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmp_xmvj0rp']
+[2024-05-06T07:55:38.052+0000] {standard_task_runner.py:88} INFO - Job 69: Subtask get_playlist_tracks
+[2024-05-06T07:55:38.107+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.get_playlist_tracks manual__2024-05-06T07:54:16.066736+00:00 [running]> on host 903c75f80f15
+[2024-05-06T07:55:38.196+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='get_playlist_tracks' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T07:54:16.066736+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T07:54:16.066736+00:00'
+[2024-05-06T07:55:38.198+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: get_playlist_tracks() missing 2 required positional arguments: 'token' and 'playlist_id'
+[2024-05-06T07:55:38.207+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=spotify_data_pipeline, task_id=get_playlist_tracks, execution_date=20240506T075416, start_date=20240506T075538, end_date=20240506T075538
+[2024-05-06T07:55:38.222+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 69 for task get_playlist_tracks (get_playlist_tracks() missing 2 required positional arguments: 'token' and 'playlist_id'; 2796)
+[2024-05-06T07:55:38.263+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-06T07:55:38.291+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

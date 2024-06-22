@@ -1,0 +1,16 @@
+[2024-05-11T15:26:26.640+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-11T15:26:12.870836+00:00 [queued]>
+[2024-05-11T15:26:26.651+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-11T15:26:12.870836+00:00 [queued]>
+[2024-05-11T15:26:26.652+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-11T15:26:26.668+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_auth_header> on 2024-05-11 15:26:12.870836+00:00
+[2024-05-11T15:26:26.675+0000] {standard_task_runner.py:60} INFO - Started process 1909 to run task
+[2024-05-11T15:26:26.678+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'get_auth_header', 'manual__2024-05-11T15:26:12.870836+00:00', '--job-id', '786', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmphr8zkh0b']
+[2024-05-11T15:26:26.681+0000] {standard_task_runner.py:88} INFO - Job 786: Subtask get_auth_header
+[2024-05-11T15:26:26.738+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-11T15:26:12.870836+00:00 [running]> on host 87b4d1457810
+[2024-05-11T15:26:26.858+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='get_auth_header' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T15:26:12.870836+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T15:26:12.870836+00:00'
+[2024-05-11T15:26:26.860+0000] {python.py:202} INFO - Done. Returned value was: {'Authorization': '***'}
+[2024-05-11T15:26:26.890+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=get_auth_header, execution_date=20240511T152612, start_date=20240511T152626, end_date=20240511T152626
+[2024-05-11T15:26:26.932+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-11T15:26:26.947+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1201: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-05-11T15:26:26.968+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

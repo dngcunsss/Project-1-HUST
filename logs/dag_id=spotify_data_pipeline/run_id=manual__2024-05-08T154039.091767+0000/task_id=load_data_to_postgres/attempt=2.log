@@ -1,0 +1,36 @@
+[2024-05-08T15:42:15.491+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.load_data_to_postgres manual__2024-05-08T15:40:39.091767+00:00 [queued]>
+[2024-05-08T15:42:15.581+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.load_data_to_postgres manual__2024-05-08T15:40:39.091767+00:00 [queued]>
+[2024-05-08T15:42:15.582+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-05-08T15:42:15.642+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): load_data_to_postgres> on 2024-05-08 15:40:39.091767+00:00
+[2024-05-08T15:42:15.673+0000] {standard_task_runner.py:60} INFO - Started process 1594 to run task
+[2024-05-08T15:42:15.682+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'load_data_to_postgres', 'manual__2024-05-08T15:40:39.091767+00:00', '--job-id', '531', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmpr2ch1umm']
+[2024-05-08T15:42:15.687+0000] {standard_task_runner.py:88} INFO - Job 531: Subtask load_data_to_postgres
+[2024-05-08T15:42:15.795+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.load_data_to_postgres manual__2024-05-08T15:40:39.091767+00:00 [running]> on host 8aebc95d8de6
+[2024-05-08T15:42:15.916+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='load_data_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2024-05-08T15:40:39.091767+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-08T15:40:39.091767+00:00'
+[2024-05-08T15:42:15.994+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/main15.py", line 230, in load_data_to_postgres
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2024-05-08T15:42:16.013+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=spotify_data_pipeline, task_id=load_data_to_postgres, execution_date=20240508T154039, start_date=20240508T154215, end_date=20240508T154216
+[2024-05-08T15:42:16.036+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 531 for task load_data_to_postgres (connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 1594)
+[2024-05-08T15:42:16.053+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-08T15:42:16.077+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

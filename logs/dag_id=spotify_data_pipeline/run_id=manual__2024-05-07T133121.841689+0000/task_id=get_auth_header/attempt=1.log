@@ -1,0 +1,13 @@
+[2024-05-07T13:31:31.774+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-07T13:31:21.841689+00:00 [queued]>
+[2024-05-07T13:31:31.792+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-07T13:31:21.841689+00:00 [queued]>
+[2024-05-07T13:31:31.794+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-07T13:31:31.822+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_auth_header> on 2024-05-07 13:31:21.841689+00:00
+[2024-05-07T13:31:31.832+0000] {standard_task_runner.py:60} INFO - Started process 995 to run task
+[2024-05-07T13:31:31.837+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'get_auth_header', 'manual__2024-05-07T13:31:21.841689+00:00', '--job-id', '348', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmp6tzsryzx']
+[2024-05-07T13:31:31.839+0000] {standard_task_runner.py:88} INFO - Job 348: Subtask get_auth_header
+[2024-05-07T13:31:31.910+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.get_auth_header manual__2024-05-07T13:31:21.841689+00:00 [running]> on host 8aebc95d8de6
+[2024-05-07T13:31:32.022+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='get_auth_header' AIRFLOW_CTX_EXECUTION_DATE='2024-05-07T13:31:21.841689+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-07T13:31:21.841689+00:00'
+[2024-05-07T13:31:32.024+0000] {python.py:202} INFO - Done. Returned value was: {'Authorization': '***'}
+[2024-05-07T13:31:32.051+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=get_auth_header, execution_date=20240507T133121, start_date=20240507T133131, end_date=20240507T133132
+[2024-05-07T13:31:32.090+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-07T13:31:32.124+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

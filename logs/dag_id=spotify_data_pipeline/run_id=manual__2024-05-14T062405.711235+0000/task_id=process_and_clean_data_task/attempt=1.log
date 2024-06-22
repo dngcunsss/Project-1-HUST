@@ -1,0 +1,35 @@
+[2024-05-14T06:24:21.197+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-14T06:24:05.711235+00:00 [queued]>
+[2024-05-14T06:24:21.211+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-14T06:24:05.711235+00:00 [queued]>
+[2024-05-14T06:24:21.212+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-14T06:24:21.239+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_and_clean_data_task> on 2024-05-14 06:24:05.711235+00:00
+[2024-05-14T06:24:21.250+0000] {standard_task_runner.py:60} INFO - Started process 841 to run task
+[2024-05-14T06:24:21.255+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'process_and_clean_data_task', 'manual__2024-05-14T06:24:05.711235+00:00', '--job-id', '910', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmp5fx2uveu']
+[2024-05-14T06:24:21.256+0000] {standard_task_runner.py:88} INFO - Job 910: Subtask process_and_clean_data_task
+[2024-05-14T06:24:21.324+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-14T06:24:05.711235+00:00 [running]> on host 87b4d1457810
+[2024-05-14T06:24:21.433+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='process_and_clean_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T06:24:05.711235+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T06:24:05.711235+00:00'
+[2024-05-14T06:24:22.303+0000] {logging_mixin.py:188} INFO - Table created successfully
+[2024-05-14T06:24:22.322+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/main15.py", line 262, in process_and_clean_data
+    cur.execute(insert_query, values)
+psycopg2.errors.DatatypeMismatch: column "Time_added" is of type timestamp without time zone but expression is of type time without time zone
+LINE 3: ...47, 'Moderate', '2024-05-11T00:00:00'::timestamp, '00:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+[2024-05-14T06:24:22.337+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_data_pipeline, task_id=process_and_clean_data_task, execution_date=20240514T062405, start_date=20240514T062421, end_date=20240514T062422
+[2024-05-14T06:24:22.358+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 910 for task process_and_clean_data_task (column "Time_added" is of type timestamp without time zone but expression is of type time without time zone
+LINE 3: ...47, 'Moderate', '2024-05-11T00:00:00'::timestamp, '00:00:00'...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+; 841)
+[2024-05-14T06:24:22.392+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-14T06:24:22.413+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

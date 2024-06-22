@@ -1,0 +1,33 @@
+[2024-06-20T18:39:04.108+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-20T18:37:46.298427+00:00 [queued]>
+[2024-06-20T18:39:04.119+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-20T18:37:46.298427+00:00 [queued]>
+[2024-06-20T18:39:04.120+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-06-20T18:39:04.139+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_and_clean_data_task> on 2024-06-20 18:37:46.298427+00:00
+[2024-06-20T18:39:04.146+0000] {standard_task_runner.py:60} INFO - Started process 18078 to run task
+[2024-06-20T18:39:04.149+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'process_and_clean_data_task', 'manual__2024-06-20T18:37:46.298427+00:00', '--job-id', '1319', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpdjmsj4jl']
+[2024-06-20T18:39:04.151+0000] {standard_task_runner.py:88} INFO - Job 1319: Subtask process_and_clean_data_task
+[2024-06-20T18:39:04.210+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-20T18:37:46.298427+00:00 [running]> on host bfb9cd6e0de0
+[2024-06-20T18:39:04.301+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='Duong.NM216917@sis.hust.edu.vn' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='process_and_clean_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-20T18:37:46.298427+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-20T18:37:46.298427+00:00'
+[2024-06-20T18:39:05.089+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/main.py", line 205, in process_and_clean_data
+    if validate_data(df):
+  File "/opt/airflow/dags/main.py", line 89, in validate_data
+    raise Exception("Primary Key check is violated")
+Exception: Primary Key check is violated
+[2024-06-20T18:39:05.107+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=spotify_data_pipeline, task_id=process_and_clean_data_task, execution_date=20240620T183746, start_date=20240620T183904, end_date=20240620T183905
+[2024-06-20T18:39:05.127+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-06-20T18:39:05.128+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-06-20T18:39:06.921+0000] {email.py:281} INFO - Sent an alert email to ['Duong.NM216917@sis.hust.edu.vn']
+[2024-06-20T18:39:07.721+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1319 for task process_and_clean_data_task (Primary Key check is violated; 18078)
+[2024-06-20T18:39:07.746+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-06-20T18:39:07.770+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

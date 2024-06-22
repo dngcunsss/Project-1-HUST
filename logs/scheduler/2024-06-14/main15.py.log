@@ -1,0 +1,371 @@
+[2024-06-14T02:09:43.634+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:09:43.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:09:43.647+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:09:43.646+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:09:46.195+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:09:49.338+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:09:49.336+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:09:49.438+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:09:49.437+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:09:49.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 5.990 seconds
+[2024-06-14T02:10:23.100+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:10:23.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:10:23.111+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:23.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:10:24.843+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:10:25.466+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:25.466+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:10:25.503+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:25.502+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:10:25.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 2.457 seconds
+[2024-06-14T02:10:56.088+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:10:56.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:10:56.095+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:56.094+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:10:56.714+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:10:57.024+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:57.024+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:10:57.065+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:10:57.065+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:10:57.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.026 seconds
+[2024-06-14T02:11:27.492+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:11:27.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:11:27.503+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:27.502+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:11:28.249+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:11:28.579+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:28.578+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:11:28.602+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:28.602+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:11:28.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.137 seconds
+[2024-06-14T02:11:58.875+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:11:58.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:11:58.879+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:58.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:11:59.670+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:11:59.777+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:59.777+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:11:59.803+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:11:59.803+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:11:59.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.961 seconds
+[2024-06-14T02:12:30.527+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:12:30.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:12:30.532+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:12:30.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:12:31.253+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:12:31.386+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:12:31.385+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:12:31.408+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:12:31.408+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:12:31.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.910 seconds
+[2024-06-14T02:13:01.946+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:13:01.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:13:01.951+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:01.951+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:13:02.596+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:13:02.738+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:02.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:13:02.762+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:02.761+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:13:02.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.849 seconds
+[2024-06-14T02:13:33.318+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:13:33.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:13:33.325+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:33.324+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:13:34.209+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:13:34.331+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:34.330+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:13:34.351+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:13:34.350+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:13:34.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.067 seconds
+[2024-06-14T02:14:04.777+0000] {processor.py:161} INFO - Started process (PID=521) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:14:04.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:14:04.781+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:04.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:14:05.497+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:14:05.619+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:05.618+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:14:05.646+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:05.645+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:14:05.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.909 seconds
+[2024-06-14T02:14:36.161+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:14:36.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:14:36.167+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:36.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:14:37.044+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:14:37.198+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:37.197+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:14:37.236+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:14:37.235+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:14:37.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.110 seconds
+[2024-06-14T02:15:07.602+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:15:07.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:15:07.610+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:07.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:15:08.461+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:15:08.589+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:08.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:15:08.612+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:08.612+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:15:08.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.035 seconds
+[2024-06-14T02:15:39.069+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:15:39.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:15:39.074+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:39.074+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:15:39.878+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:15:40.057+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:40.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:15:40.098+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:15:40.098+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:15:40.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.070 seconds
+[2024-06-14T02:16:10.870+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:16:10.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:16:10.878+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:10.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:16:11.787+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:16:12.079+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:12.078+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:16:12.127+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:12.126+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:16:12.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.305 seconds
+[2024-06-14T02:16:42.635+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:16:42.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:16:42.664+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:42.664+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:16:43.931+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:16:44.059+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:44.059+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:16:44.085+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:16:44.084+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:16:44.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.548 seconds
+[2024-06-14T02:17:14.800+0000] {processor.py:161} INFO - Started process (PID=889) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:17:14.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:17:14.812+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:14.805+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:17:15.627+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:17:15.802+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:15.801+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:17:15.843+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:15.842+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:17:15.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.082 seconds
+[2024-06-14T02:17:46.218+0000] {processor.py:161} INFO - Started process (PID=950) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:17:46.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:17:46.227+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:46.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:17:47.121+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:17:47.306+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:47.305+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:17:47.343+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:17:47.343+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:17:47.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.173 seconds
+[2024-06-14T02:18:17.854+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:18:17.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:18:17.860+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:17.859+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:18:18.789+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:18:18.957+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:18.956+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:18:18.989+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:18.989+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:18:19.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.178 seconds
+[2024-06-14T02:18:49.417+0000] {processor.py:161} INFO - Started process (PID=1074) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:18:49.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:18:49.422+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:49.422+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:18:50.137+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:18:50.254+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:50.253+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:18:50.280+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:18:50.279+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:18:50.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.897 seconds
+[2024-06-14T02:19:20.950+0000] {processor.py:161} INFO - Started process (PID=1135) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:19:20.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:19:20.955+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:20.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:19:21.626+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:19:21.738+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:21.738+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:19:21.763+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:21.762+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:19:21.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.846 seconds
+[2024-06-14T02:19:52.406+0000] {processor.py:161} INFO - Started process (PID=1196) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:19:52.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:19:52.410+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:52.409+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:19:53.134+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:19:53.248+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:53.247+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:19:53.275+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:19:53.275+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:19:53.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.899 seconds
+[2024-06-14T02:20:23.718+0000] {processor.py:161} INFO - Started process (PID=1261) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:20:23.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:20:23.725+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:23.725+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:20:24.878+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:20:25.063+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:25.063+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:20:25.095+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:25.094+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:20:25.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.425 seconds
+[2024-06-14T02:20:55.422+0000] {processor.py:161} INFO - Started process (PID=1325) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:20:55.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:20:55.426+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:55.425+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:20:56.087+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:20:56.199+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:56.199+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:20:56.219+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:20:56.219+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:20:56.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.824 seconds
+[2024-06-14T02:21:26.619+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:21:26.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:21:26.624+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:26.623+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:21:27.407+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:21:27.560+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:27.559+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:21:27.582+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:27.582+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:21:27.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.000 seconds
+[2024-06-14T02:21:57.968+0000] {processor.py:161} INFO - Started process (PID=1448) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:21:57.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:21:57.972+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:57.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:21:58.651+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:21:58.767+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:58.766+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:21:58.796+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:21:58.796+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:21:58.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.861 seconds
+[2024-06-14T02:22:28.948+0000] {processor.py:161} INFO - Started process (PID=1515) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:22:28.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:22:28.952+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:22:28.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:22:29.713+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:22:29.830+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:22:29.829+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:22:29.860+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:22:29.859+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:22:29.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.953 seconds
+[2024-06-14T02:23:00.518+0000] {processor.py:161} INFO - Started process (PID=1576) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:23:00.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:23:00.522+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:00.522+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:23:01.277+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:23:01.385+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:01.384+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:23:01.414+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:01.413+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:23:01.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.928 seconds
+[2024-06-14T02:23:31.756+0000] {processor.py:161} INFO - Started process (PID=1642) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:23:31.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:23:31.760+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:31.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:23:32.513+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:23:32.643+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:32.642+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:23:32.667+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:23:32.667+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:23:32.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.944 seconds
+[2024-06-14T02:24:03.040+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:24:03.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:24:03.045+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:03.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:24:03.786+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:24:03.924+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:03.923+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:24:03.952+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:03.951+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:24:03.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.950 seconds
+[2024-06-14T02:24:34.703+0000] {processor.py:161} INFO - Started process (PID=1768) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:24:34.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:24:34.709+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:34.708+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:24:37.659+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:24:37.793+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:37.793+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:24:37.824+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:24:37.823+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:24:37.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 3.159 seconds
+[2024-06-14T02:25:08.025+0000] {processor.py:161} INFO - Started process (PID=1852) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:25:08.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:25:08.031+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:08.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:25:08.984+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:25:09.121+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:09.121+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:25:09.144+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:09.143+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:25:09.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.164 seconds
+[2024-06-14T02:25:39.522+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:25:39.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:25:39.527+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:39.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:25:40.329+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:25:40.481+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:40.480+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:25:40.515+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:25:40.515+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:25:40.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.031 seconds
+[2024-06-14T02:26:11.426+0000] {processor.py:161} INFO - Started process (PID=1980) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:26:11.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:26:11.431+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:11.430+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:26:12.442+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:26:12.579+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:12.579+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:26:12.610+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:12.610+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:26:12.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.221 seconds
+[2024-06-14T02:26:43.143+0000] {processor.py:161} INFO - Started process (PID=2041) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:26:43.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:26:43.147+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:43.147+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:26:43.852+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:26:43.965+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:43.964+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:26:43.989+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:26:43.989+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:26:44.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.876 seconds
+[2024-06-14T02:27:14.742+0000] {processor.py:161} INFO - Started process (PID=2102) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:27:14.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:27:14.747+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:14.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:27:15.461+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:27:15.570+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:15.570+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:27:15.593+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:15.592+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:27:15.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.886 seconds
+[2024-06-14T02:27:46.191+0000] {processor.py:161} INFO - Started process (PID=2164) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:27:46.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:27:46.197+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:46.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:27:46.890+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:27:46.999+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:46.999+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:27:47.026+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:27:47.025+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:27:47.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.873 seconds
+[2024-06-14T02:28:17.184+0000] {processor.py:161} INFO - Started process (PID=2225) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:28:17.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:28:17.191+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:17.191+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:28:17.714+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:28:17.847+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:17.846+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:28:17.884+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:17.884+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:28:17.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.739 seconds
+[2024-06-14T02:28:48.623+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:28:48.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:28:48.627+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:48.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:28:49.159+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:28:49.286+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:49.286+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:28:49.316+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:28:49.316+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:28:49.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.727 seconds
+[2024-06-14T02:29:19.945+0000] {processor.py:161} INFO - Started process (PID=2347) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:29:19.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:29:19.950+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:19.950+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:29:20.528+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:29:20.649+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:20.648+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:29:20.675+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:20.674+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:29:20.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.762 seconds
+[2024-06-14T02:29:50.991+0000] {processor.py:161} INFO - Started process (PID=2408) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:29:50.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:29:50.997+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:50.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:29:53.696+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:29:53.853+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:53.852+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:29:53.893+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:29:53.892+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:29:53.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 2.949 seconds
+[2024-06-14T02:30:24.690+0000] {processor.py:161} INFO - Started process (PID=2471) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:30:24.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:30:24.695+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:24.694+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:30:25.320+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:30:25.528+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:25.527+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:30:25.568+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:25.566+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:30:25.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.932 seconds
+[2024-06-14T02:30:56.066+0000] {processor.py:161} INFO - Started process (PID=2532) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:30:56.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:30:56.072+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:56.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:30:57.203+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:30:57.435+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:57.434+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:30:57.471+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:30:57.468+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:30:57.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.455 seconds
+[2024-06-14T02:31:27.725+0000] {processor.py:161} INFO - Started process (PID=2593) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:31:27.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:31:27.730+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:31:27.729+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:31:30.336+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:31:30.565+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:31:30.564+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:31:30.612+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:31:30.611+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:31:30.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 2.951 seconds
+[2024-06-14T02:32:00.973+0000] {processor.py:161} INFO - Started process (PID=2656) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:32:00.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:32:00.978+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:00.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:32:01.662+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:32:01.792+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:01.791+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:32:01.821+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:01.820+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:32:01.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.884 seconds
+[2024-06-14T02:32:32.429+0000] {processor.py:161} INFO - Started process (PID=2717) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:32:32.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:32:32.434+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:32.434+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:32:33.122+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:32:33.237+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:33.237+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:32:33.267+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:32:33.266+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:32:33.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.871 seconds
+[2024-06-14T02:33:03.796+0000] {processor.py:161} INFO - Started process (PID=2778) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:33:03.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:33:03.801+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:03.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:33:04.546+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:33:04.715+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:04.715+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:33:04.742+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:04.742+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:33:04.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.981 seconds
+[2024-06-14T02:33:35.097+0000] {processor.py:161} INFO - Started process (PID=2839) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:33:35.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:33:35.103+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:35.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:33:35.937+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:33:36.388+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:36.388+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:33:36.427+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:33:36.427+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:33:36.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.404 seconds
+[2024-06-14T02:34:06.654+0000] {processor.py:161} INFO - Started process (PID=2906) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:34:06.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:34:06.664+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:06.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:34:07.286+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:34:07.422+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:07.422+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:34:07.457+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:07.456+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:34:07.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.850 seconds
+[2024-06-14T02:34:37.814+0000] {processor.py:161} INFO - Started process (PID=2967) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:34:37.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:34:37.820+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:37.820+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:34:38.416+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:34:38.564+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:38.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:34:38.597+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:34:38.596+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:34:38.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.819 seconds
+[2024-06-14T02:35:08.788+0000] {processor.py:161} INFO - Started process (PID=3028) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:35:08.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:35:08.794+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:08.794+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:35:09.465+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:35:09.582+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:09.582+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:35:09.607+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:09.606+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:35:09.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.855 seconds
+[2024-06-14T02:35:39.760+0000] {processor.py:161} INFO - Started process (PID=3093) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:35:39.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:35:39.765+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:39.764+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:35:40.455+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:35:40.603+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:40.603+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:35:40.626+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:35:40.626+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:35:40.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.899 seconds
+[2024-06-14T02:36:11.237+0000] {processor.py:161} INFO - Started process (PID=3154) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:36:11.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:36:11.242+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:11.241+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:36:11.878+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:36:12.101+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:12.101+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:36:12.136+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:12.136+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:36:12.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.932 seconds
+[2024-06-14T02:36:43.071+0000] {processor.py:161} INFO - Started process (PID=3217) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:36:43.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:36:43.076+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:43.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:36:44.084+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:36:44.303+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:44.302+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:36:44.326+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:36:44.326+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:36:44.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 1.453 seconds
+[2024-06-14T02:37:14.711+0000] {processor.py:161} INFO - Started process (PID=3282) to work on /opt/airflow/dags/main15.py
+[2024-06-14T02:37:14.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main15.py for tasks to queue
+[2024-06-14T02:37:14.716+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:37:14.716+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/main15.py
+[2024-06-14T02:37:15.237+0000] {processor.py:840} INFO - DAG(s) 'spotify_data_pipeline' retrieved from /opt/airflow/dags/main15.py
+[2024-06-14T02:37:15.388+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:37:15.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-14T02:37:15.546+0000] {logging_mixin.py:188} INFO - [2024-06-14T02:37:15.546+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_data_pipeline to 2024-06-14 00:00:00+00:00, run_after=2024-06-15 00:00:00+00:00
+[2024-06-14T02:37:15.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main15.py took 0.879 seconds

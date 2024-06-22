@@ -1,0 +1,13 @@
+[2024-05-07T14:02:13.764+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_token manual__2024-05-07T14:02:10.731202+00:00 [queued]>
+[2024-05-07T14:02:13.777+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_token manual__2024-05-07T14:02:10.731202+00:00 [queued]>
+[2024-05-07T14:02:13.778+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-07T14:02:13.795+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_token> on 2024-05-07 14:02:10.731202+00:00
+[2024-05-07T14:02:13.801+0000] {standard_task_runner.py:60} INFO - Started process 1530 to run task
+[2024-05-07T14:02:13.805+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'get_token', 'manual__2024-05-07T14:02:10.731202+00:00', '--job-id', '374', '--raw', '--subdir', 'DAGS_FOLDER/how.py', '--cfg-path', '/tmp/tmper12ona3']
+[2024-05-07T14:02:13.807+0000] {standard_task_runner.py:88} INFO - Job 374: Subtask get_token
+[2024-05-07T14:02:13.865+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.get_token manual__2024-05-07T14:02:10.731202+00:00 [running]> on host 8aebc95d8de6
+[2024-05-07T14:02:13.966+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='get_token' AIRFLOW_CTX_EXECUTION_DATE='2024-05-07T14:02:10.731202+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-07T14:02:10.731202+00:00'
+[2024-05-07T14:02:14.146+0000] {python.py:202} INFO - Done. Returned value was: BQDih1eXVrsINmpgSNGj2bUVgLa8lD09obI2lMS6WpkpZFAfJaMf8qn8N_jQfd3g1WZFhzhB-_B4dsV78Nmo5NXsE9y_2aZ_Bq_qSZTMzbx5QpW4OvSYq21V
+[2024-05-07T14:02:14.191+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=get_token, execution_date=20240507T140210, start_date=20240507T140213, end_date=20240507T140214
+[2024-05-07T14:02:14.220+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-07T14:02:14.258+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

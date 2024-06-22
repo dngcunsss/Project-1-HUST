@@ -1,0 +1,1 @@
+[2024-05-08T14:49:36.776+0000] {scheduler_job_runner.py:780} ERROR - Executor reports task instance <TaskInstance: spotify_data_pipeline.validate_data manual__2024-05-08T14:49:01.277005+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

@@ -1,0 +1,14 @@
+[2024-06-19T18:06:31.667+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-19T18:06:10.757767+00:00 [queued]>
+[2024-06-19T18:06:31.682+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-19T18:06:10.757767+00:00 [queued]>
+[2024-06-19T18:06:31.683+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-06-19T18:06:31.702+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_and_clean_data_task> on 2024-06-19 18:06:10.757767+00:00
+[2024-06-19T18:06:31.711+0000] {standard_task_runner.py:60} INFO - Started process 81 to run task
+[2024-06-19T18:06:31.714+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'process_and_clean_data_task', 'manual__2024-06-19T18:06:10.757767+00:00', '--job-id', '1283', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmpm_nko3v6']
+[2024-06-19T18:06:31.716+0000] {standard_task_runner.py:88} INFO - Job 1283: Subtask process_and_clean_data_task
+[2024-06-19T18:06:31.849+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-06-19T18:06:10.757767+00:00 [running]> on host bfb9cd6e0de0
+[2024-06-19T18:06:31.960+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='Duong.NM216917@sis.hust.edu.vn' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='process_and_clean_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-19T18:06:10.757767+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-19T18:06:10.757767+00:00'
+[2024-06-19T18:06:32.666+0000] {logging_mixin.py:188} INFO - Table created successfully
+[2024-06-19T18:06:32.729+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-06-19T18:06:32.742+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=process_and_clean_data_task, execution_date=20240619T180610, start_date=20240619T180631, end_date=20240619T180632
+[2024-06-19T18:06:32.773+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-19T18:06:32.798+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

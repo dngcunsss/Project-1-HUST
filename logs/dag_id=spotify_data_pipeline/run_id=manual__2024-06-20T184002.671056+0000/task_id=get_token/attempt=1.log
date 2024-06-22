@@ -1,0 +1,13 @@
+[2024-06-20T18:40:05.978+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_token manual__2024-06-20T18:40:02.671056+00:00 [queued]>
+[2024-06-20T18:40:05.995+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.get_token manual__2024-06-20T18:40:02.671056+00:00 [queued]>
+[2024-06-20T18:40:05.996+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-06-20T18:40:06.024+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): get_token> on 2024-06-20 18:40:02.671056+00:00
+[2024-06-20T18:40:06.035+0000] {standard_task_runner.py:60} INFO - Started process 18099 to run task
+[2024-06-20T18:40:06.037+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'get_token', 'manual__2024-06-20T18:40:02.671056+00:00', '--job-id', '1320', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp9yl2_my4']
+[2024-06-20T18:40:06.041+0000] {standard_task_runner.py:88} INFO - Job 1320: Subtask get_token
+[2024-06-20T18:40:06.208+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.get_token manual__2024-06-20T18:40:02.671056+00:00 [running]> on host bfb9cd6e0de0
+[2024-06-20T18:40:06.352+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='Duong.NM216917@sis.hust.edu.vn' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='get_token' AIRFLOW_CTX_EXECUTION_DATE='2024-06-20T18:40:02.671056+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-20T18:40:02.671056+00:00'
+[2024-06-20T18:40:06.935+0000] {python.py:202} INFO - Done. Returned value was: BQA2Q6MURs6ac5QIrr0LLWy1aIUL6UmI7ph3R2MH84y7ve51GNLL2IXq0cMnWz7b3vHapgNgsUovnALR-PostTH8515MThQ_xAdZlfpMBcCbbL9iq4aL2OH4
+[2024-06-20T18:40:07.011+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=get_token, execution_date=20240620T184002, start_date=20240620T184005, end_date=20240620T184007
+[2024-06-20T18:40:07.149+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-20T18:40:07.228+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

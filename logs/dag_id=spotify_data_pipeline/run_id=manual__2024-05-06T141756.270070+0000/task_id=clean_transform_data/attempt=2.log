@@ -1,0 +1,26 @@
+[2024-05-06T14:19:19.438+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.clean_transform_data manual__2024-05-06T14:17:56.270070+00:00 [queued]>
+[2024-05-06T14:19:19.447+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.clean_transform_data manual__2024-05-06T14:17:56.270070+00:00 [queued]>
+[2024-05-06T14:19:19.448+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-05-06T14:19:19.462+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): clean_transform_data> on 2024-05-06 14:17:56.270070+00:00
+[2024-05-06T14:19:19.469+0000] {standard_task_runner.py:60} INFO - Started process 2796 to run task
+[2024-05-06T14:19:19.472+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'clean_transform_data', 'manual__2024-05-06T14:17:56.270070+00:00', '--job-id', '180', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmptmmno_dl']
+[2024-05-06T14:19:19.474+0000] {standard_task_runner.py:88} INFO - Job 180: Subtask clean_transform_data
+[2024-05-06T14:19:19.522+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.clean_transform_data manual__2024-05-06T14:17:56.270070+00:00 [running]> on host 903c75f80f15
+[2024-05-06T14:19:19.652+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='clean_transform_data' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T14:17:56.270070+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T14:17:56.270070+00:00'
+[2024-05-06T14:19:19.654+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/main15.py", line 306, in clean_and_transform_data
+    df = df.dropna().reset_index(drop=True)
+AttributeError: 'str' object has no attribute 'dropna'
+[2024-05-06T14:19:19.672+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=spotify_data_pipeline, task_id=clean_transform_data, execution_date=20240506T141756, start_date=20240506T141919, end_date=20240506T141919
+[2024-05-06T14:19:19.685+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 180 for task clean_transform_data ('str' object has no attribute 'dropna'; 2796)
+[2024-05-06T14:19:19.726+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-06T14:19:19.750+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

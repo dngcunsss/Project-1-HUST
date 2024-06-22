@@ -1,0 +1,33 @@
+[2024-05-06T14:07:37.466+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_song_info manual__2024-05-06T14:07:00.324793+00:00 [queued]>
+[2024-05-06T14:07:37.483+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_song_info manual__2024-05-06T14:07:00.324793+00:00 [queued]>
+[2024-05-06T14:07:37.484+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-06T14:07:37.512+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_song_info> on 2024-05-06 14:07:00.324793+00:00
+[2024-05-06T14:07:37.523+0000] {standard_task_runner.py:60} INFO - Started process 2570 to run task
+[2024-05-06T14:07:37.531+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'process_song_info', 'manual__2024-05-06T14:07:00.324793+00:00', '--job-id', '170', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmpb0hc_ax9']
+[2024-05-06T14:07:37.534+0000] {standard_task_runner.py:88} INFO - Job 170: Subtask process_song_info
+[2024-05-06T14:07:37.631+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.process_song_info manual__2024-05-06T14:07:00.324793+00:00 [running]> on host 903c75f80f15
+[2024-05-06T14:07:38.017+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='process_song_info' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T14:07:00.324793+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T14:07:00.324793+00:00'
+[2024-05-06T14:07:38.019+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 1: string indices must be integers
+[2024-05-06T14:07:38.020+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 2: string indices must be integers
+[2024-05-06T14:07:38.021+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 3: string indices must be integers
+[2024-05-06T14:07:38.022+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 4: string indices must be integers
+[2024-05-06T14:07:38.022+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 5: string indices must be integers
+[2024-05-06T14:07:38.023+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 6: string indices must be integers
+[2024-05-06T14:07:38.024+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 7: string indices must be integers
+[2024-05-06T14:07:38.024+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 8: string indices must be integers
+[2024-05-06T14:07:38.024+0000] {logging_mixin.py:188} INFO - An error occurred while processing song 9: string indices must be integers
+[2024-05-06T14:07:38.028+0000] {python.py:202} INFO - Done. Returned value was:    Index Track ID Track Name  ... Added At Type of Album Popularity
+0      1     None       None  ...     None          None       None
+1      2     None       None  ...     None          None       None
+2      3     None       None  ...     None          None       None
+3      4     None       None  ...     None          None       None
+4      5     None       None  ...     None          None       None
+5      6     None       None  ...     None          None       None
+6      7     None       None  ...     None          None       None
+7      8     None       None  ...     None          None       None
+8      9     None       None  ...     None          None       None
+
+[9 rows x 9 columns]
+[2024-05-06T14:07:38.172+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=process_song_info, execution_date=20240506T140700, start_date=20240506T140737, end_date=20240506T140738
+[2024-05-06T14:07:38.227+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-06T14:07:38.278+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

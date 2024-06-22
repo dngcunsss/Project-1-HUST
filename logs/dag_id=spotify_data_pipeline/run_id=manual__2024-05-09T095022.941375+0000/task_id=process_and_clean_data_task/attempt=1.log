@@ -1,0 +1,30 @@
+[2024-05-09T09:50:49.641+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-09T09:50:22.941375+00:00 [queued]>
+[2024-05-09T09:50:49.665+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-09T09:50:22.941375+00:00 [queued]>
+[2024-05-09T09:50:49.677+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-09T09:50:49.713+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): process_and_clean_data_task> on 2024-05-09 09:50:22.941375+00:00
+[2024-05-09T09:50:49.722+0000] {standard_task_runner.py:60} INFO - Started process 632 to run task
+[2024-05-09T09:50:49.727+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'process_and_clean_data_task', 'manual__2024-05-09T09:50:22.941375+00:00', '--job-id', '588', '--raw', '--subdir', 'DAGS_FOLDER/main15.py', '--cfg-path', '/tmp/tmpzdc78nrc']
+[2024-05-09T09:50:49.729+0000] {standard_task_runner.py:88} INFO - Job 588: Subtask process_and_clean_data_task
+[2024-05-09T09:50:49.789+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.process_and_clean_data_task manual__2024-05-09T09:50:22.941375+00:00 [running]> on host 8d7ea4aa6981
+[2024-05-09T09:50:49.893+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='process_and_clean_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-09T09:50:22.941375+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-09T09:50:22.941375+00:00'
+[2024-05-09T09:50:51.249+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/main15.py", line 224, in process_and_clean_data
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "postgres_localhost"
+
+[2024-05-09T09:50:51.263+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_data_pipeline, task_id=process_and_clean_data_task, execution_date=20240509T095022, start_date=20240509T095049, end_date=20240509T095051
+[2024-05-09T09:50:51.282+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 588 for task process_and_clean_data_task (connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "postgres_localhost"
+; 632)
+[2024-05-09T09:50:51.308+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-09T09:50:51.329+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

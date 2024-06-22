@@ -1,0 +1,17 @@
+[2024-06-20T18:44:34.505+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_data_pipeline.send_email manual__2024-06-20T18:44:14.492073+00:00 [queued]>
+[2024-06-20T18:44:34.515+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_data_pipeline.send_email manual__2024-06-20T18:44:14.492073+00:00 [queued]>
+[2024-06-20T18:44:34.516+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-06-20T18:44:34.532+0000] {taskinstance.py:2217} INFO - Executing <Task(EmailOperator): send_email> on 2024-06-20 18:44:14.492073+00:00
+[2024-06-20T18:44:34.539+0000] {standard_task_runner.py:60} INFO - Started process 18222 to run task
+[2024-06-20T18:44:34.542+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_data_pipeline', 'send_email', 'manual__2024-06-20T18:44:14.492073+00:00', '--job-id', '1343', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp9axlbip4']
+[2024-06-20T18:44:34.544+0000] {standard_task_runner.py:88} INFO - Job 1343: Subtask send_email
+[2024-06-20T18:44:34.598+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_data_pipeline.send_email manual__2024-06-20T18:44:14.492073+00:00 [running]> on host bfb9cd6e0de0
+[2024-06-20T18:44:34.690+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='Duong.NM216917@sis.hust.edu.vn' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_data_pipeline' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2024-06-20T18:44:14.492073+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-20T18:44:14.492073+00:00'
+[2024-06-20T18:44:34.705+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-06-20T18:44:34.706+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2024-06-20T18:44:36.569+0000] {email.py:281} INFO - Sent an alert email to ['Duong.NM216917@sis.hust.edu.vn']
+[2024-06-20T18:44:37.356+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_data_pipeline, task_id=send_email, execution_date=20240620T184414, start_date=20240620T184434, end_date=20240620T184437
+[2024-06-20T18:44:37.416+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-20T18:44:37.432+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
